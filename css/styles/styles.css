@@ -1,0 +1,112 @@
+.lista-proyectos{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:35%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0%;
+    padding-left: 5%;
+    color:antiquewhite;
+    margin-left: 75px;
+}
+
+.gold{
+    display:flex;
+    color:goldenrod;
+    font-size: 1.5rem;
+    padding-left: 5%;
+    margin-left:75px;
+    margin-top:-25px;
+
+}
+.logo{
+    display: flex;
+    
+}
+.lista-botones{
+    list-style-type: none;
+    display: flex;
+    padding-left: 65%;
+    margin-top: -30px;
+    justify-content: space-between;
+    width:30%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:antiquewhite;
+}
+
+
+.footer{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-around;
+    color:antiquewhite;
+    clear:both;
+    border:2px solid;
+}
+
+.contenido{
+    
+    color:whitesmoke;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:55%;
+    height:40%;
+    margin-top: 5%;
+    text-align: left;
+    line-break: normal;
+    line-height: 1.5em;
+    
+}
+.contenedor{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 31%, rgba(0,212,255,1) 100%);
+    width:85%;
+    height: 350px;
+}
+.imagen-style{
+    float:right;
+    width:30%;
+    margin-left:6px;
+    margin-bottom:6px;
+    height:auto;
+}
+
+.btn-sign{
+    display:flex;
+    justify-content: space-around;
+    width:55%;
+    margin-top:15%;
+    font-size:16px;
+}
+
+.btn-firma{
+    background-color: green;
+    
+   padding: 16px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-aprende{
+    background-color: black;
+    padding:12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-sign a{
+    color:antiquewhite;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+   
+}
+
+.space{
+    margin-top:20px;
+}
+
+.azul{
+    color:aqua;
+}
